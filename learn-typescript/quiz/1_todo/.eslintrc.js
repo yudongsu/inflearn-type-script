@@ -11,6 +11,7 @@ module.exports = {
   ],
   plugins: ['prettier', '@typescript-eslint'],
   rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'prettier/prettier': [
       'error',
       {
@@ -21,6 +22,7 @@ module.exports = {
         printWidth: 80,
         bracketSpacing: true,
         arrowParens: 'avoid',
+        endOfLine:'auto'
       },
     ],
   },
