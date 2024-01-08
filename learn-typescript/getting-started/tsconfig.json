@@ -2,8 +2,12 @@
     "compilerOptions": {
         "allowJs": true,
         "checkJs": true,
+<<<<<<< HEAD
         "noUnusedLocals": true,
         "noImplicitAny": true,
         "no-var-requires": true,
+=======
+        "noImplicitAny": true
+>>>>>>> badong
     }
 }

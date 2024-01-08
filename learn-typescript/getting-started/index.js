@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // TS 튜플 - 배열의 타입까지 설정
 var address = ['강남', 10];
 // TS 객체 - 배열의 타입까지 설정
@@ -12,3 +13,9 @@ var person1 = {
 };
 // TS 진위값
 var show = true;
+=======
+function sum(a, b) {
+    return a + b;
+}
+sum(10, 20);
+>>>>>>> badong
