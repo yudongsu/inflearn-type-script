@@ -2,7 +2,15 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
+<<<<<<< HEAD
     "noImplicitAny": true
+=======
+    "target": "es5",
+    "lib": ["es2015", "dom", "dom.iterable"],
+    "noImplicitAny": true,
+    "strict": true,
+    "strictFunctionTypes": true
+>>>>>>> 06a5056127a3989ca21c04b4ae3c493c331757b9
   },
   "include": ["./src/**/*"]
 }

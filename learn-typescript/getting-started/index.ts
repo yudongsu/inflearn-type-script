@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // TS 튜플 - 배열의 타입까지 설정
 let address: [string, number] = ['강남',10];
  
@@ -13,3 +14,10 @@ let person1: {name: string, age: number } = {
 }
 // TS 진위값
 let show: boolean = true;
+=======
+function sum(a:number, b: number){
+    return a+b;
+}
+
+sum(10, 20);
+>>>>>>> badong
