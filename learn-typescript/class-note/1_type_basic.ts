@@ -46,4 +46,4 @@ sum(10,20,30,40); // 4번째 변수 체크함.
 function log(a:string, b?:string) {
 }
 log('hello world');
-log('hello world', 'abc', 'abc');
+//log('hello world', 'abc', 'abc');
