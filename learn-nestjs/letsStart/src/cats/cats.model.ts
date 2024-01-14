@@ -1,11 +1,11 @@
-export interface CatType {
+export type CatType = {
   id: string;
   name: string;
   age: number;
   species: string;
   isCute: boolean;
   friends: string[];
-}
+};
 
 export const Cat: CatType[] = [
   {
